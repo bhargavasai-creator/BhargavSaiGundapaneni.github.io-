@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bhargav Sai Gundapaneni</title>
+<meta name="description" content="Bhargav Sai Gundapaneni — MS Software Development, Boston University. Interested in robotics, computer vision and machine learning.">
+<style>
+:root{--bg:#fbfbf8;--fg:#1d2430;--mute:#5d6675;--line:#d9dde3;--accent:#1f5fa8;--chip:#e9eef5}
+@media (prefers-color-scheme:dark){:root{--bg:#14181f;--fg:#e6e9ee;--mute:#9aa4b2;--line:#2b3340;--accent:#7fb2ee;--chip:#222a36}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 Georgia,"Source Serif 4",serif}
+a{color:var(--accent);text-decoration:none}a:hover,a:focus-visible{text-decoration:underline}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
+nav{max-width:860px;margin:auto;padding:.8rem 1.25rem;display:flex;gap:1.4rem;flex-wrap:wrap;font:600 .95rem system-ui,sans-serif}
+nav b{margin-right:auto;color:var(--fg)}
+main{max-width:860px;margin:auto;padding:0 1.25rem 4rem}
+section{padding-top:2.5rem}
+h1{font-size:2.3rem;line-height:1.15;margin:.2rem 0 .6rem}
+h2{font:700 1.45rem Georgia,serif;border-bottom:1px solid var(--line);padding-bottom:.3rem;margin:0 0 1rem}
+.hero{display:grid;grid-template-columns:200px 1fr;gap:2rem;align-items:start;padding-top:2.5rem}
+.photo{width:200px;height:240px;border-radius:6px;background:var(--chip);display:grid;place-items:center;color:var(--mute);font:.85rem system-ui;text-align:center;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover}
+.links{font:.95rem system-ui,sans-serif;display:flex;gap:1rem;flex-wrap:wrap;margin-top:.8rem}
+.tags{display:flex;gap:.5rem;flex-wrap:wrap;margin:.8rem 0 0;padding:0;list-style:none;font:.85rem system-ui,sans-serif}
+.tags li{background:var(--chip);padding:.2rem .65rem;border-radius:99px}
+.item{margin:0 0 1.1rem}
+.item .t{font-weight:700}
+.meta{color:var(--mute);font:.9rem system-ui,sans-serif}
+ul.plain{padding-left:1.1rem;margin:.3rem 0}
+.skills{display:grid;grid-template-columns:150px 1fr;gap:.35rem 1rem;font-size:.97rem}
+.skills dt{font:600 .9rem system-ui,sans-serif;color:var(--mute)}.skills dd{margin:0}
+footer{max-width:860px;margin:auto;padding:1.5rem 1.25rem;border-top:1px solid var(--line);color:var(--mute);font:.85rem system-ui,sans-serif}
+@media(max-width:640px){.hero{grid-template-columns:1fr}.skills{grid-template-columns:1fr}.photo{width:160px;height:190px}h1{font-size:1.9rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><nav aria-label="Sections">
+<b>Bhargav Sai Gundapaneni</b>
+<a href="#about">Home</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#cv">CV</a>
+</nav></header>
+
+<main>
+<section id="about" class="hero" style="padding-top:2.5rem">
+<div class="photo"><!-- Replace with: <img src="photo.jpg" alt="Bhargav Sai Gundapaneni"> -->Add photo.jpg</div>
+<div>
+<h1>Bhargav Sai Gundapaneni</h1>
+<p>I am a software and machine learning engineer with an M.S. in Software Development from Boston University and a B.Tech in Mechanical Engineering from Presidency University. I work on computer vision, machine learning and robotics systems, and I am applying to PhD programs for Fall 2027.</p>
+<p>My mix of mechanical engineering and software training lets me move between hardware constraints and learning-based methods. I have built banking-scale microservices at Tata Consultancy Services, worked at Tesla, and founded Critter Affinity.</p>
+<div class="links">
+<a href="mailto:gundapanenibhargavsai@gmail.com">Email</a>
+<a href="https://www.linkedin.com/in/bhargav-sai-b61677193/">LinkedIn</a>
+<a href="https://github.com/YOUR-USERNAME">GitHub</a>
+<a href="#cv">CV</a>
+</div>
+<ul class="tags"><li>Robot learning</li><li>Computer vision</li><li>Machine learning</li><li>Cloud systems</li></ul>
+</div>
+</section>
+
+<section id="research">
+<h2>Research interests</h2>
+<p>I am interested in how robots perceive and act in the physical world. My focus areas are:</p>
+<ul class="plain">
+<li><b>Visual perception for robotics:</b> detection and scene understanding from camera data (for example, my lane-marking detection work with OpenCV and Keras).</li>
+<li><b>Machine learning for control and decision-making:</b> learning-based methods for autonomous systems.</li>
+<li><b>Deployable ML systems:</b> turning models into reliable, scalable services.</li>
+</ul>
+<p class="meta">Prospective advisors: I am happy to be contacted about PhD openings. Please email me with a note on your lab's current projects.</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="item"><span class="t">Vision Detection Pipeline</span><br>YOLOv8 detector at 94% mAP on 1M+ frames; TensorRT / CUDA optimization cut inference latency from 120 ms to 45 ms.</div>
+<div class="item"><span class="t">Critter Affinity Backend and Pet Health Tracking App</span> <span class="meta">2024 – present</span><br>Backend services and a health-tracking application for pet owners. <!-- TODO: add a GitHub link and one line on the stack --></div>
+<div class="item"><span class="t">Lane Markings Detection</span> <span class="meta">2021</span><br>Python tool using OpenCV and Keras to detect lane markings. Built after completing the <i>Autonomous Cars: Deep Learning &amp; Computer Vision</i> course.</div>
+<div class="item"><span class="t">Particle Visualization Tool</span> <span class="meta">2025</span><br>Parameterized Python generator (color, speed, count) that exported 1K+ frames as GIFs, with 30% faster rendering.</div>
+<div class="item"><span class="t">Long Audio Player</span> <span class="meta">2025</span><br>JavaScript/React player with a curved progress bar and playback-position memory, tested across mobile devices.</div>
+<div class="item"><span class="t">Quantum Finance Currency Converter</span> <span class="meta">2025</span><br>Flask application with a REST API and live exchange rates from ExchangeRate-API.</div>
+<div class="item"><span class="t">Automated Warehouse Data Structure</span> <span class="meta">2024</span><br>Java data structure for an automated warehouse that cut space use by 30% and halved retrieval time.</div>
+<div class="item"><span class="t">Distance Vector Routing, Currency Microservice, Trie Contacts</span> <span class="meta">2020–2022</span><br>Java projects covering networking (routing updates every 15 s), Spring Boot REST services, and Trie/HashMap data structures.</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="item"><span class="t">Founder and Software Engineer (SDE II)</span><br><span class="meta">Critter Affinity · Jul 2024 – present</span>
+<ul class="plain"><li>Lead a four-person team building a pet-focused product; backend services, APIs and data pipelines.</li><li>Automated test coverage above 89%.</li></ul></div>
+<div class="item"><span class="t">Research Assistant</span><br><span class="meta">Boston University · Jul 2024 – Jan 2025</span>
+<ul class="plain"><li>Data cleaning, analysis and visualization with Python, Power BI and Google Colab.</li></ul></div>
+<div class="item"><span class="t">Technical Product Manager Intern, New Product Introduction</span><br><span class="meta">Tesla · Jan 2024 – Jul 2024</span>
+<ul class="plain"><li>Python automation and real-time monitoring tools across engineering and operations teams.</li></ul></div>
+<div class="item"><span class="t">Software Development Engineer</span><br><span class="meta">Tata Consultancy Services · Jun 2021 – Jan 2023</span>
+<ul class="plain"><li>Java / Spring Boot microservices for BNP Paribas and ABN AMRO projects: 500K+ daily transactions at sub-100 ms p99 latency.</li><li>Google Cloud migration that cut infrastructure cost by 15%.</li></ul></div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="item"><span class="t">M.S. in Software Development</span>, Boston University<br><span class="meta">Jan 2023 – Jan 2025</span><br>Coursework: Machine Learning, Machine Perception, Artificial Intelligence, NLP, Algorithms &amp; Optimization, Cloud Computing, Systems &amp; Networking, Computer Architecture.</div>
+<div class="item"><span class="t">B.Tech in Mechanical Engineering</span>, Presidency University, Bangalore<br><span class="meta">2017 – 2021 · First Class</span><br>Coursework: Robotics, Computer Programming, Flexible Manufacturing Systems; labs including Mechatronics and Modeling &amp; Simulation.</div>
+</section>
+
+<section id="skills">
+<h2>Skills and certifications</h2>
+<dl class="skills">
+<dt>Languages</dt><dd>Python, Java, C, JavaScript</dd>
+<dt>ML &amp; vision</dt><dd>OpenCV, Keras, machine learning, NLP</dd>
+<dt>Cloud &amp; DevOps</dt><dd>GCP, Azure, AWS, Docker, Kubernetes, Jenkins, Git</dd>
+<dt>Backend</dt><dd>Flask, Spring Boot, REST, MySQL, MongoDB</dd>
+<dt>Design</dt><dd>SolidWorks, Fusion 360, AutoCAD</dd>
+<dt>Certifications</dt><dd>Google Cloud Engineer (2022), Autonomous Cars: Deep Learning &amp; Computer Vision (2021), AWS Essentials for Developers (2022), Azure Essentials (2022)</dd>
+</dl>
+</section>
+
+<section id="cv">
+<h2>CV</h2>
+<p><a href="cv.pdf">Download my CV (PDF)</a></p>
+</section>
+</main>
+<footer>© 2026 Bhargav Sai Gundapaneni</footer>
+</body>
+</html>
